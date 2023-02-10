@@ -24,7 +24,6 @@ Style/PercentLiteralDelimiters:
     '%W': '[]'
 Style/UnlessElse: { Enabled: false }
 Bundler/OrderedGems: { Enabled: false }
-Style/CaseEquality: { Exclude: ['lib/ronin/web/server/conditions.rb'] }
 Style/Next: { Enabled: false }
 Style/HashSyntax: { Enabled: false }
 Naming/BlockForwarding: { Enabled: false }
@@ -151,4 +150,4 @@ Gemspec/RequireMFA: { Enabled: false }
 # make an exception for our gemspec code
 Gemspec/DuplicatedAssignment:
   Exclude:
-    - 'ronin-web-server.gemspec'
+    - 'ronin-template.gemspec'
