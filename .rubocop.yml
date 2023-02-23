@@ -116,7 +116,6 @@ Layout/FirstHashElementIndentation: { Enabled: false } # Offense count: 4
 Layout/ParameterAlignment: { Enabled: false } # Offense count: 9
 Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
-Style/Documentation: { Enabled: false } # Offense count: 3
 Style/ExpandPathArguments: { Enabled: false } # Offense count: 8
 Style/KeywordParametersOrder: { Enabled: false } # Offense count: 8
 Style/Lambda: { Enabled: false } # Offense count: 3
