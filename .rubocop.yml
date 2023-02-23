@@ -64,6 +64,7 @@ Style/AccessorGrouping: { Enabled: false }
 Style/KeywordParametersOrder: { Enabled: false }
 Style/Lambda:
   EnforcedStyle: 'literal'
+Style/MutableConstant: { Enabled: false }
 
 #
 # rules that are in flux
@@ -119,7 +120,6 @@ Layout/FirstHashElementIndentation: { Enabled: false } # Offense count: 4
 Layout/ParameterAlignment: { Enabled: false } # Offense count: 9
 Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
-Style/MutableConstant: { Enabled: false } # Offense count: 4
 Style/RaiseArgs: { Enabled: false } # Offense count: 4
 Style/RedundantReturn: { Enabled: false } # Offense count: 7
 Style/SafeNavigation: { Enabled: false } # Offense count: 5
