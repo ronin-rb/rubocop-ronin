@@ -27,6 +27,7 @@ Bundler/OrderedGems: { Enabled: false }
 Style/Next: { Enabled: false }
 Style/HashSyntax: { Enabled: false }
 Naming/BlockForwarding: { Enabled: false }
+Naming/RescuedExceptionsVariableName: { Enabled: false }
 Lint/ReturnInVoidContext: { Enabled: false }
 Lint/NoReturnInBeginEndBlocks: { Enabled: false }
 Gemspec/DeprecatedAttributeAssignment: { Enabled: false }
@@ -91,7 +92,6 @@ Style/FetchEnvVar: { Enabled: false }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Naming/RescuedExceptionsVariableName: { Enabled: false } # Offense count: 11
 Style/BlockDelimiters: { Enabled: false } # Offense count: 17
 Style/ClassCheck: { Enabled: false } # Offense count: 10
 Style/ClassEqualityComparison: { Enabled: false } # Offense count: 16
