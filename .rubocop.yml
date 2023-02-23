@@ -37,6 +37,7 @@ Layout/BeginEndAlignment: { Enabled: false }
 Layout/RescueEnsureAlignment: { Enabled: false }
 Layout/HashAlignment: { Enabled: false }
 Layout/SpaceAfterComma: { Enabled: false }
+Layout/SpaceInsideHashLiteralBraces: { Enabled: false }
 Style/MultilineBlockChain: { Enabled: false }
 Style/NumericLiterals: { Enabled: false }
 Style/RedundantInterpolation: { Enabled: false }
@@ -90,7 +91,6 @@ Style/FetchEnvVar: { Enabled: false }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Layout/SpaceInsideHashLiteralBraces: { Enabled: false } # Offense count: 57
 Layout/TrailingWhitespace: { Enabled: false } # Offense count: 50
 Naming/RescuedExceptionsVariableName: { Enabled: false } # Offense count: 11
 Style/BlockDelimiters: { Enabled: false } # Offense count: 17
