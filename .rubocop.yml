@@ -91,7 +91,6 @@ Style/FetchEnvVar: { Enabled: false }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Layout/TrailingWhitespace: { Enabled: false } # Offense count: 50
 Naming/RescuedExceptionsVariableName: { Enabled: false } # Offense count: 11
 Style/BlockDelimiters: { Enabled: false } # Offense count: 17
 Style/ClassCheck: { Enabled: false } # Offense count: 10
