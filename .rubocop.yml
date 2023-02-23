@@ -35,6 +35,7 @@ Layout/EmptyLineAfterMagicComment: { Enabled: false }
 Layout/FirstArgumentIndentation: { Enabled: false }
 Layout/BeginEndAlignment: { Enabled: false }
 Layout/RescueEnsureAlignment: { Enabled: false }
+Layout/HashAlignment: { Enabled: false }
 Style/MultilineBlockChain: { Enabled: false }
 Style/NumericLiterals: { Enabled: false }
 Style/RedundantInterpolation: { Enabled: false }
@@ -88,7 +89,6 @@ Style/FetchEnvVar: { Enabled: false }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Layout/HashAlignment: { Enabled: false } # Offense count: 28
 Layout/SpaceAfterComma: { Enabled: false } # Offense count: 141
 Layout/SpaceInsideHashLiteralBraces: { Enabled: false } # Offense count: 57
 Layout/TrailingWhitespace: { Enabled: false } # Offense count: 50
