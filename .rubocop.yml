@@ -48,6 +48,7 @@ Style/FetchEnvVar: { Enabled: false }
 Style/BlockDelimiters: { Enabled: false }
 Style/ClassCheck: { Enabled: false }
 Style/FrozenStringLiteralComment: { Exclude: ['spec/**/*'] }
+Style/GuardClause: { Enabled: false }
 
 #
 # rules that are in flux
@@ -95,7 +96,6 @@ Style/FrozenStringLiteralComment: { Exclude: ['spec/**/*'] }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Style/GuardClause: { Enabled: false } # Offense count: 10
 Style/IfUnlessModifier: { Enabled: false } # Offense count: 13
 Style/MethodCallWithoutArgsParentheses: { Enabled: false } # Offense count: 10
 Style/SpecialGlobalVars: { Enabled: false } # Offense count: 28
