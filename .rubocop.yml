@@ -109,7 +109,6 @@ Style/StringLiterals: { Enabled: false } # Offense count: 774
 # < 10 violations
 Layout/FirstHashElementIndentation: { Enabled: false } # Offense count: 4
 Layout/ParameterAlignment: { Enabled: false } # Offense count: 9
-Layout/SpaceAroundKeyword: { Enabled: false } # Offense count: 7
 Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 Lint/EmptyClass: { Enabled: false } # Offense count: 3
