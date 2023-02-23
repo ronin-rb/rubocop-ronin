@@ -62,6 +62,8 @@ Lint/SuppressedException:
 Lint/UnusedMethodArgument: { Enabled: false }
 Style/AccessorGrouping: { Enabled: false }
 Style/KeywordParametersOrder: { Enabled: false }
+Style/Lambda:
+  EnforcedStyle: 'literal'
 
 #
 # rules that are in flux
@@ -117,7 +119,6 @@ Layout/FirstHashElementIndentation: { Enabled: false } # Offense count: 4
 Layout/ParameterAlignment: { Enabled: false } # Offense count: 9
 Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
-Style/Lambda: { Enabled: false } # Offense count: 3
 Style/MutableConstant: { Enabled: false } # Offense count: 4
 Style/RaiseArgs: { Enabled: false } # Offense count: 4
 Style/RedundantReturn: { Enabled: false } # Offense count: 7
