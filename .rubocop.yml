@@ -46,6 +46,7 @@ Style/FormatString: { Enabled: false }
 Style/RedundantSelf: { Enabled: false }
 Style/FetchEnvVar: { Enabled: false }
 Style/BlockDelimiters: { Enabled: false }
+Style/ClassCheck: { Enabled: false }
 
 #
 # rules that are in flux
@@ -93,7 +94,6 @@ Style/BlockDelimiters: { Enabled: false }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Style/ClassCheck: { Enabled: false } # Offense count: 10
 Style/ClassEqualityComparison: { Enabled: false } # Offense count: 16
 Style/FrozenStringLiteralComment: { Enabled: false } # Offense count: 77
 Style/GlobalStdStream: { Enabled: false } # Offense count: 13
