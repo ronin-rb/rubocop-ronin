@@ -60,6 +60,7 @@ Lint/EmptyClass: { Exclude: ['spec/**/*'] }
 Lint/SuppressedException:
   AllowComments: true
 Lint/UnusedMethodArgument: { Enabled: false }
+Lint/UnusedBlockArgument: { Enabled: false }
 Style/AccessorGrouping: { Enabled: false }
 Style/KeywordParametersOrder: { Enabled: false }
 Style/Lambda:
@@ -126,7 +127,6 @@ Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
-Lint/UnusedBlockArgument: { Enabled: false } # Offense count: 1
 Naming/MethodParameterName: { Enabled: false } # Offense count: 1
 Style/EmptyMethod: { Enabled: false } # Offense count: 2
 Style/HashConversion: { Enabled: false } # Offense count: 1
