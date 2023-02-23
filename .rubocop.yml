@@ -73,6 +73,7 @@ Layout/BlockAlignment: { Enabled: false }
 Style/EmptyMethod:
   Exclude:
     - 'spec/**/*'
+Style/NumericPredicate: { Enabled: false }
 
 #
 # rules that are in flux
@@ -130,7 +131,6 @@ Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
-Style/NumericPredicate: { Enabled: false } # Offense count: 1
 Style/OptionalArguments: { Enabled: false } # Offense count: 1
 Style/ParenthesesAroundCondition: { Enabled: false } # Offense count: 1
 Style/PreferredHashMethods: { Enabled: false } # Offense count: 1
