@@ -52,6 +52,10 @@ Style/GuardClause: { Enabled: false }
 Style/IfUnlessModifier: { Enabled: false }
 Style/SpecialGlobalVars: { Enabled: false }
 Lint/ElseLayout: { Enabled: false }
+Layout/ExtraSpacing:
+  AllowForAlignment: true
+  AllowBeforeTrailingComments: true
+  ForceEqualSignAlignment: true
 
 #
 # rules that are in flux
@@ -103,7 +107,6 @@ Style/MethodCallWithoutArgsParentheses: { Enabled: false } # Offense count: 10
 Style/StringLiterals: { Enabled: false } # Offense count: 774
 
 # < 10 violations
-Layout/ExtraSpacing: { Enabled: false } # Offense count: 6
 Layout/FirstHashElementIndentation: { Enabled: false } # Offense count: 4
 Layout/ParameterAlignment: { Enabled: false } # Offense count: 9
 Layout/SpaceAroundKeyword: { Enabled: false } # Offense count: 7
