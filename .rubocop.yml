@@ -94,7 +94,6 @@ Style/ClassCheck: { Enabled: false }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Style/ClassEqualityComparison: { Enabled: false } # Offense count: 16
 Style/FrozenStringLiteralComment: { Enabled: false } # Offense count: 77
 Style/GlobalStdStream: { Enabled: false } # Offense count: 13
 Style/GuardClause: { Enabled: false } # Offense count: 10
