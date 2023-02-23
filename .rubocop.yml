@@ -51,6 +51,7 @@ Style/FrozenStringLiteralComment: { Exclude: ['spec/**/*'] }
 Style/GuardClause: { Enabled: false }
 Style/IfUnlessModifier: { Enabled: false }
 Style/SpecialGlobalVars: { Enabled: false }
+Lint/ElseLayout: { Enabled: false }
 
 #
 # rules that are in flux
@@ -100,7 +101,6 @@ Style/SpecialGlobalVars: { Enabled: false }
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
 Style/MethodCallWithoutArgsParentheses: { Enabled: false } # Offense count: 10
 Style/StringLiterals: { Enabled: false } # Offense count: 774
-Lint/ElseLayout: { Enabled: false } # Offense count: 22
 
 # < 10 violations
 Layout/EmptyLinesAroundModuleBody: { Enabled: false } # Offense count: 5
