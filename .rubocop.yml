@@ -130,7 +130,6 @@ Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
-Style/MultilineMemoization: { Enabled: false } # Offense count: 1
 Style/NumericPredicate: { Enabled: false } # Offense count: 1
 Style/OptionalArguments: { Enabled: false } # Offense count: 1
 Style/ParenthesesAroundCondition: { Enabled: false } # Offense count: 1
