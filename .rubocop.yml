@@ -57,6 +57,9 @@ Layout/ExtraSpacing:
   AllowBeforeTrailingComments: true
   ForceEqualSignAlignment: true
 Lint/EmptyClass: { Exclude: ['spec/**/*'] }
+Lint/SuppressedException:
+  AllowComments: true
+Lint/UnusedMethodArgument: { Enabled: false }
 
 #
 # rules that are in flux
@@ -112,8 +115,6 @@ Layout/FirstHashElementIndentation: { Enabled: false } # Offense count: 4
 Layout/ParameterAlignment: { Enabled: false } # Offense count: 9
 Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
-Lint/SuppressedException: { Enabled: false } # Offense count: 4
-Lint/UnusedMethodArgument: { Enabled: false } # Offense count: 5
 Style/AccessorGrouping: { Enabled: false } # Offense count: 7
 Style/Documentation: { Enabled: false } # Offense count: 3
 Style/ExpandPathArguments: { Enabled: false } # Offense count: 8
