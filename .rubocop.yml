@@ -103,7 +103,6 @@ Style/MethodCallWithoutArgsParentheses: { Enabled: false } # Offense count: 10
 Style/StringLiterals: { Enabled: false } # Offense count: 774
 
 # < 10 violations
-Layout/EmptyLinesAroundModuleBody: { Enabled: false } # Offense count: 5
 Layout/ExtraSpacing: { Enabled: false } # Offense count: 6
 Layout/FirstHashElementIndentation: { Enabled: false } # Offense count: 4
 Layout/ParameterAlignment: { Enabled: false } # Offense count: 9
