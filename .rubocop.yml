@@ -49,6 +49,7 @@ Style/BlockDelimiters: { Enabled: false }
 Style/ClassCheck: { Enabled: false }
 Style/FrozenStringLiteralComment: { Exclude: ['spec/**/*'] }
 Style/GuardClause: { Enabled: false }
+Style/IfUnlessModifier: { Enabled: false }
 
 #
 # rules that are in flux
@@ -96,7 +97,6 @@ Style/GuardClause: { Enabled: false }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Style/IfUnlessModifier: { Enabled: false } # Offense count: 13
 Style/MethodCallWithoutArgsParentheses: { Enabled: false } # Offense count: 10
 Style/SpecialGlobalVars: { Enabled: false } # Offense count: 28
 Style/StringLiterals: { Enabled: false } # Offense count: 774
