@@ -30,6 +30,7 @@ Naming/BlockForwarding: { Enabled: false }
 Lint/ReturnInVoidContext: { Enabled: false }
 Lint/NoReturnInBeginEndBlocks: { Enabled: false }
 Gemspec/DeprecatedAttributeAssignment: { Enabled: false }
+Layout/EmptyLinesAroundClassBody: { Enabled: false }
 Layout/EmptyLineAfterMagicComment: { Enabled: false }
 Layout/FirstArgumentIndentation: { Enabled: false }
 Layout/BeginEndAlignment: { Enabled: false }
@@ -87,7 +88,6 @@ Style/FetchEnvVar: { Enabled: false }
 
 # > 10 violations
 Layout/AssignmentIndentation: { Enabled: false } # Offense count: 11
-Layout/EmptyLinesAroundClassBody: { Enabled: false } # Offense count: 76
 Layout/HashAlignment: { Enabled: false } # Offense count: 28
 Layout/SpaceAfterComma: { Enabled: false } # Offense count: 141
 Layout/SpaceInsideHashLiteralBraces: { Enabled: false } # Offense count: 57
