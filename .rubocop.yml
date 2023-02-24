@@ -78,6 +78,8 @@ Style/OptionalArguments: { Enabled: false }
 Style/ParenthesesAroundCondition: { Enabled: false }
 Style/PreferredHashMethods:
   EnforcedStyle: 'verbose'
+Style/QuotedSymbols:
+  EnforcedStyle: 'double_quotes'
 
 #
 # rules that are in flux
@@ -135,7 +137,6 @@ Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
-Style/QuotedSymbols: { Enabled: false } # Offense count: 1
 Style/RedundantException: { Enabled: false } # Offense count: 1
 Style/RedundantRegexpEscape: { Enabled: false } # Offense count: 1
 Style/RegexpLiteral: { Enabled: false } # Offense count: 1
