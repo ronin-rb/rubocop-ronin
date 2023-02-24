@@ -79,6 +79,7 @@ Style/RescueStandardError: { Enabled: false }
 Style/SoleNestedConditional: { Enabled: false }
 Layout/AssignmentIndentation: { Enabled: false }
 Style/StringLiterals: { Enabled: false }
+Layout/SpaceBeforeComma: { Enabled: false }
 
 #
 # rules that are in flux
@@ -125,7 +126,6 @@ Style/StringLiterals: { Enabled: false }
 #
 
 # < 10 violations
-Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
