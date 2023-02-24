@@ -4,9 +4,8 @@ AllCops:
   TargetRubyVersion: 3.1
 
 #
-# our rules
+# Common Ronin style rules:
 #
-
 Layout/FirstArrayElementIndentation: { Exclude: ['spec/**/*'] }
 Layout/LineLength: { Enabled: false }
 Layout/SpaceAroundEqualsInParameterDefault: { EnforcedStyle: 'no_space' }
@@ -80,50 +79,6 @@ Style/SoleNestedConditional: { Enabled: false }
 Layout/AssignmentIndentation: { Enabled: false }
 Style/StringLiterals: { Enabled: false }
 Layout/SpaceBeforeComma: { Enabled: false }
-
-#
-# rules that are in flux
-#
-
-# consider enabling these and autocorrecting?
-# Layout/SpaceAfterComma
-# Layout/SpaceAroundKeyword
-# Layout/SpaceBeforeComma
-# Layout/SpaceInsideHashLiteralBraces
-# Layout/SpaceInsideParens
-# Layout/TrailingWhitespace
-# Lint/UnreachableLoop
-# Lint/UnusedBlockArgument
-# Style/ClassCheck
-# Style/Documentation
-# Style/ExpandPathArguments
-# Style/GlobalStdStream
-# Style/HashSyntax
-# Style/KeywordParametersOrder
-# Style/MethodCallWithoutArgsParentheses
-# Style/MutableConstant
-# Style/QuotedSymbols: { EnforcedStyle: double_quotes }
-# Style/RedundantReturn
-# Style/SafeNavigation
-# Style/SpecialGlobalVars
-# Style/StringLiterals: { EnforcedStyle: double_quotes }
-# Style/WordArray
-
-# these have been fixed
-# Gemspec/DuplicatedAssignment: { Enabled: false } # Offense count: 1
-# Layout/ElseAlignment: { Enabled: false } # Offense count: 1
-# Layout/EndAlignment: { Enabled: false } # Offense count: 1
-# Lint/DuplicateMethods: { Enabled: false } # Offense count: 1
-# Lint/UselessAssignment: { Enabled: false } # Offense count: 1
-# Style/Encoding: { Enabled: false } # Offense count: 2
-# Style/RedundantBegin: { Enabled: false } # Offense count: 2
-# Style/RedundantInterpolation: { Enabled: false } # Offense count: 1
-# Style/TrailingCommaInArrayLiteral: { Enabled: false } # Offense count: 1
-
-#
-# This list was generated with:
-# bundle exec rubocop --auto-gen-config --exclude-limit 1
-#
 
 # rubocop cannot tell that rubygems_mfa_required is enabled in gemspec.yml
 Gemspec/RequireMFA: { Enabled: false }
