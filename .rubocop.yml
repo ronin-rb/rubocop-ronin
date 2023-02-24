@@ -52,6 +52,7 @@ Style/FrozenStringLiteralComment: { Exclude: ['spec/**/*'] }
 Style/GuardClause: { Enabled: false }
 Style/IfUnlessModifier: { Enabled: false }
 Style/SpecialGlobalVars: { Enabled: false }
+Style/GlobalStdStream: { Exclude: ['spec/**/*'] }
 Lint/ElseLayout: { Enabled: false }
 Layout/ExtraSpacing:
   AllowForAlignment: true
