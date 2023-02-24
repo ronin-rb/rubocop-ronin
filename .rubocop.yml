@@ -125,11 +125,6 @@ Layout/SpaceBeforeComma: { Enabled: false }
 # bundle exec rubocop --auto-gen-config --exclude-limit 1
 #
 
-# < 10 violations
-Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
-
-# 1 or 2 violations
-
 # rubocop cannot tell that rubygems_mfa_required is enabled in gemspec.yml
 Gemspec/RequireMFA: { Enabled: false }
 
