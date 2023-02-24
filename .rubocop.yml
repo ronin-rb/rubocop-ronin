@@ -76,6 +76,8 @@ Style/EmptyMethod:
 Style/NumericPredicate: { Enabled: false }
 Style/OptionalArguments: { Enabled: false }
 Style/ParenthesesAroundCondition: { Enabled: false }
+Style/PreferredHashMethods:
+  EnforcedStyle: 'verbose'
 
 #
 # rules that are in flux
@@ -133,7 +135,6 @@ Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
-Style/PreferredHashMethods: { Enabled: false } # Offense count: 1
 Style/QuotedSymbols: { Enabled: false } # Offense count: 1
 Style/RedundantException: { Enabled: false } # Offense count: 1
 Style/RedundantRegexpEscape: { Enabled: false } # Offense count: 1
