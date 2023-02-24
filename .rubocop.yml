@@ -81,6 +81,7 @@ Style/PreferredHashMethods:
 Style/QuotedSymbols:
   EnforcedStyle: 'double_quotes'
 Style/RedundantRegexpEscape: { Enabled: false }
+Style/RescueStandardError: { Enabled: false }
 
 #
 # rules that are in flux
@@ -138,7 +139,6 @@ Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
-Style/RescueStandardError: { Enabled: false } # Offense count: 1
 Style/SoleNestedConditional: { Enabled: false } # Offense count: 1
 Style/TrailingCommaInHashLiteral: { Enabled: false } # Offense count: 2
 
