@@ -25,6 +25,7 @@ Style/UnlessElse: { Enabled: false }
 Bundler/OrderedGems: { Enabled: false }
 Style/Next: { Enabled: false }
 Style/HashSyntax: { Enabled: false }
+Naming/PredicateName: { Enabled: false }
 Naming/BlockForwarding: { Enabled: false }
 Naming/RescuedExceptionsVariableName: { Enabled: false }
 Lint/ReturnInVoidContext: { Enabled: false }
