@@ -125,7 +125,6 @@ Style/StringLiterals: { Enabled: false }
 #
 
 # < 10 violations
-Layout/ParameterAlignment: { Enabled: false } # Offense count: 9
 Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
