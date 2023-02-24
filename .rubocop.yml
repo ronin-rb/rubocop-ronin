@@ -137,7 +137,6 @@ Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
-Style/RedundantException: { Enabled: false } # Offense count: 1
 Style/RedundantRegexpEscape: { Enabled: false } # Offense count: 1
 Style/RegexpLiteral: { Enabled: false } # Offense count: 1
 Style/RescueStandardError: { Enabled: false } # Offense count: 1
