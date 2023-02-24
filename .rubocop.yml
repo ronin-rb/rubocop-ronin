@@ -82,6 +82,7 @@ Style/QuotedSymbols:
   EnforcedStyle: 'double_quotes'
 Style/RedundantRegexpEscape: { Enabled: false }
 Style/RescueStandardError: { Enabled: false }
+Style/SoleNestedConditional: { Enabled: false }
 
 #
 # rules that are in flux
@@ -139,7 +140,6 @@ Layout/SpaceBeforeComma: { Enabled: false } # Offense count: 4
 Layout/SpaceInsideParens: { Enabled: false } # Offense count: 4
 
 # 1 or 2 violations
-Style/SoleNestedConditional: { Enabled: false } # Offense count: 1
 Style/TrailingCommaInHashLiteral: { Enabled: false } # Offense count: 2
 
 # rubocop cannot tell that rubygems_mfa_required is enabled in gemspec.yml
