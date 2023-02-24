@@ -37,6 +37,7 @@ Layout/BeginEndAlignment: { Enabled: false }
 Layout/RescueEnsureAlignment: { Enabled: false }
 Layout/HashAlignment: { Enabled: false }
 Layout/SpaceAfterComma: { Enabled: false }
+Layout/SpaceInsideParens: { Enabled: false }
 Layout/SpaceInsideHashLiteralBraces: { Enabled: false }
 Style/MultilineBlockChain: { Enabled: false }
 Style/NumericLiterals: { Enabled: false }
