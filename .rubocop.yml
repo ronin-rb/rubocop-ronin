@@ -69,6 +69,7 @@ Style/MutableConstant: { Enabled: false }
 Style/RedundantReturn: { Enabled: false }
 Style/SafeNavigation: { Enabled: false }
 Style/WordArray: { Enabled: false }
+Layout/ParameterAlignment: { Enabled: false }
 Layout/BlockAlignment: { Enabled: false }
 Style/EmptyMethod: { Exclude: ['spec/**/*'] }
 Style/NumericPredicate: { Enabled: false }
