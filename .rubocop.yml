@@ -85,3 +85,7 @@ Gemspec/RequireMFA: { Enabled: false }
 
 # make an exception for our gemspec code
 Gemspec/DuplicatedAssignment: { Exclude: ['ronin-FIXME.gemspec'] }
+
+#
+# ronin-FIXME specific exceptions
+#
