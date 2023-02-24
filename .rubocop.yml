@@ -78,6 +78,7 @@ Style/RedundantRegexpEscape: { Enabled: false }
 Style/RescueStandardError: { Enabled: false }
 Style/SoleNestedConditional: { Enabled: false }
 Layout/AssignmentIndentation: { Enabled: false }
+Style/StringLiterals: { Enabled: false }
 
 #
 # rules that are in flux
@@ -122,9 +123,6 @@ Layout/AssignmentIndentation: { Enabled: false }
 # This list was generated with:
 # bundle exec rubocop --auto-gen-config --exclude-limit 1
 #
-
-# > 10 violations
-Style/StringLiterals: { Enabled: false } # Offense count: 774
 
 # < 10 violations
 Layout/FirstHashElementIndentation: { Enabled: false } # Offense count: 4
