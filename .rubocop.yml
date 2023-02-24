@@ -124,7 +124,6 @@ Layout/AssignmentIndentation: { Enabled: false }
 #
 
 # > 10 violations
-Style/MethodCallWithoutArgsParentheses: { Enabled: false } # Offense count: 10
 Style/StringLiterals: { Enabled: false } # Offense count: 774
 
 # < 10 violations
