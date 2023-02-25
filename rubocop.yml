@@ -75,7 +75,7 @@ Style/SafeNavigation: { Enabled: false }
 Style/WordArray: { Enabled: false }
 Layout/ParameterAlignment: { Enabled: false }
 Layout/BlockAlignment: { Enabled: false }
-Style/EmptyMethod: { Exclude: ['spec/**/*'] }
+Style/EmptyMethod: { Disable: false }
 Style/NumericPredicate: { Enabled: false }
 Style/OptionalArguments: { Enabled: false }
 Style/ParenthesesAroundCondition: { Enabled: false }
