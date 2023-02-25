@@ -1,7 +1,11 @@
-AllCops:
-  NewCops: enable
-  SuggestExtensions: false
-  TargetRubyVersion: 3.1
+#
+# Ronin rubocop configuration.
+#
+
+inherit_mode:
+  merge:
+  - Exclude
+  - Include
 
 #
 # Common Ronin style rules:
@@ -88,8 +92,4 @@ Layout/SpaceBeforeComma: { Enabled: false }
 Gemspec/RequireMFA: { Enabled: false }
 
 # make an exception for our gemspec code
-Gemspec/DuplicatedAssignment: { Exclude: ['ronin-FIXME.gemspec'] }
-
-#
-# ronin-FIXME specific exceptions
-#
+Gemspec/DuplicatedAssignment: { Exclude: ['ronin*.gemspec'] }
