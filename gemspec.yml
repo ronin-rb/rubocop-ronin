@@ -1,0 +1,30 @@
+name: rubocop-ronin
+version: 0.1.0
+summary: rubocop configuration for the ronin-rb project
+description: |
+  rubocop-ronin is a set of common rubocop rules for the ronin-rb project.
+  This is necessary because rubocop's default configuration clashes with
+  ronin-rb's coding style, or sometimes even differs from the defacto Ruby
+  coding style.
+
+license: MIT
+authors: Postmodern
+email: postmodern.mod3@gmail.com
+homepage: https://ronin-rb.dev/
+has_yard: true
+
+files:
+  - LICENSE.txt
+  - rubocop.yml
+
+metadata:
+  source_code_uri:   https://github.com/ronin-rb/rubocop-ronin
+  bug_tracker_uri:   https://github.com/ronin-rb/rubocop-ronin/issues
+  changelog_uri:     https://github.com/ronin-rb/rubocop-ronin/blob/main/ChangeLog.md
+  rubygems_mfa_required: 'true'
+
+dependencies:
+  rubocop: ~> 1.0
+
+development_dependencies:
+  bundler: ~> 2.0
