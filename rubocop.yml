@@ -16,7 +16,7 @@ Layout/SpaceAroundEqualsInParameterDefault: { EnforcedStyle: 'no_space' }
 Lint/ConstantDefinitionInBlock: { Exclude: ['spec/**/*'] }
 Metrics: { Enabled: false }
 Style/SymbolArray: { EnforcedStyle: 'brackets' }
-Style/IfInsideElse: { Enabled: false } # Offense count: 1
+Style/IfInsideElse: { Enabled: false }
 Style/PercentLiteralDelimiters:
   Enabled: true
   PreferredDelimiters:
