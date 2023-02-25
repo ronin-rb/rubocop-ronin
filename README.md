@@ -29,6 +29,7 @@ coding style.
 Add the gem to the `Gemfile`:
 
 ```ruby
+gem 'rubocop',                 require: false
 gem 'rubocop-ronin', '~> 0.1', require: false
 ```
 
