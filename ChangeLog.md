@@ -1,3 +1,7 @@
+### 0.2.2 / 2023-06-20
+
+* Ignore `Naming/MethodParameterName` for `spec/` files.
+
 ### 0.2.1 / 2023-02-24
 
 * Fixed a typo in `Style/EmptyMethod` configuration.
