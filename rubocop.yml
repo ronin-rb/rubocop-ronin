@@ -88,6 +88,7 @@ Style/SoleNestedConditional: { Enabled: false }
 Layout/AssignmentIndentation: { Enabled: false }
 Style/StringLiterals: { Enabled: false }
 Layout/SpaceBeforeComma: { Enabled: false }
+Style/ReturnNilInPredicateMethodDefinition: { Enabled: false }
 
 # rubocop cannot tell that rubygems_mfa_required is enabled in gemspec.yml
 Gemspec/RequireMFA: { Enabled: false }
