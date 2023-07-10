@@ -1,3 +1,7 @@
+### 0.2.3 / 2023-07-09
+
+* Disable `Style/ReturnNilInPredicateMethodDefinition` globally.
+
 ### 0.2.2 / 2023-06-20
 
 * Ignore `Naming/MethodParameterName` for `spec/` files.
