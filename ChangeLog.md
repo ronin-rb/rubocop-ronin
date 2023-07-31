@@ -1,3 +1,7 @@
+### 0.2.4 / 2023-07-31
+
+* Disable `Style/ArgumentsForwarding` globally.
+
 ### 0.2.3 / 2023-07-09
 
 * Disable `Style/ReturnNilInPredicateMethodDefinition` globally.
