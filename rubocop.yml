@@ -95,3 +95,6 @@ Gemspec/RequireMFA: { Enabled: false }
 
 # make an exception for our gemspec code
 Gemspec/DuplicatedAssignment: { Exclude: ['ronin*.gemspec'] }
+
+# use explicit kwargs for YARD documentation
+Style/ArgumentsForwarding: { Enabled: false }
