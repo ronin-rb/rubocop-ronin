@@ -5,7 +5,6 @@
 * [Issues](https://github.com/ronin-rb/rubocop-ronin/issues)
 * [Documentation](https://ronin-rb.dev/docs/rubocop-ronin/frames)
 * [Discord](https://discord.gg/6WAb3PsVX9) |
-  [Twitter](https://twitter.com/ronin_rb) |
   [Mastodon](https://infosec.exchange/@ronin_rb)
 
 ## Description
