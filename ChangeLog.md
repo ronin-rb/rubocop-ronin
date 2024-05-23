@@ -1,3 +1,7 @@
+### 0.2.6 / 2024-05-23
+
+* Disable `Style/SuperArguments` globally.
+
 ### 0.2.5 / 2023-12-04
 
 * Disable `Style/RedundantParentheses` globally.
