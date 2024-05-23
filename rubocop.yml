@@ -99,3 +99,6 @@ Gemspec/DuplicatedAssignment: { Exclude: ['ronin*.gemspec'] }
 
 # use explicit kwargs for YARD documentation
 Style/ArgumentsForwarding: { Enabled: false }
+
+# I have been bit by implicit `super` argument/block passing in the past
+Style/SuperArguments: { Enabled: false }
