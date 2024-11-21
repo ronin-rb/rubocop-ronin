@@ -102,3 +102,6 @@ Style/ArgumentsForwarding: { Enabled: false }
 
 # I have been bit by implicit `super` argument/block passing in the past
 Style/SuperArguments: { Enabled: false }
+
+# bitwise operations are more understandable than Integer#allbits? / #nobits?
+Style/BitwisePredicate: { Enabled: false }
