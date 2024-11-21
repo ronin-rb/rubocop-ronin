@@ -1,3 +1,7 @@
+### 0.2.7 / 2024-11-20
+
+* Disable `Style/BitwisePredicate` globally.
+
 ### 0.2.6 / 2024-05-23
 
 * Disable `Style/SuperArguments` globally.
