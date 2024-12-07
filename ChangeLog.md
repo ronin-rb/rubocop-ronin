@@ -1,3 +1,7 @@
+### 0.3.0 / 2024-12-07
+
+* Disable pending rubocop cops globally.
+
 ### 0.2.7 / 2024-11-20
 
 * Disable `Style/BitwisePredicate` globally.
