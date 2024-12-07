@@ -7,6 +7,9 @@ inherit_mode:
   - Exclude
   - Include
 
+AllCops:
+  NewCops: disable
+
 #
 # Common Ronin style rules:
 #
