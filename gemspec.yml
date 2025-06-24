@@ -1,5 +1,5 @@
 name: rubocop-ronin
-version: 0.3.0
+version: 0.3.1
 summary: rubocop configuration for the ronin-rb project
 description: |
   rubocop-ronin is a set of common rubocop rules for the ronin-rb project.
