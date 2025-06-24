@@ -1,3 +1,7 @@
+### 0.3.1 / 2025-06-24
+
+* Renamed the `Naming/PredicateName` rule to `Naming/PredicatePrefix`.
+
 ### 0.3.0 / 2024-12-07
 
 * Disable pending rubocop cops globally.
