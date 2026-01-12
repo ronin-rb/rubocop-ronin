@@ -36,6 +36,7 @@ Naming/PredicatePrefix: { Enabled: false }
 Naming/BlockForwarding: { Enabled: false }
 Naming/RescuedExceptionsVariableName: { Enabled: false }
 Naming/MethodParameterName: { Exclude: ['spec/**/*.rb'] }
+Naming/PredicateMethod: { Enabled: false }
 Lint/ReturnInVoidContext: { Enabled: false }
 Lint/NoReturnInBeginEndBlocks: { Enabled: false }
 Gemspec/DeprecatedAttributeAssignment: { Enabled: false }
