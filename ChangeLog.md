@@ -1,3 +1,7 @@
+### 0.3.2 / 2026-01-11
+
+* Disable `Naming/PredicateMethod` globally.
+
 ### 0.3.1 / 2025-06-24
 
 * Renamed the `Naming/PredicateName` rule to `Naming/PredicatePrefix`.
